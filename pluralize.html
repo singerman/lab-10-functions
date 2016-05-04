@@ -1,0 +1,21 @@
+<html>
+<body>
+<script>
+
+function pluralize(word) { 
+	if (word !== "word"){
+	return word + "s ";
+	}
+	else if (word === "word"){
+	return word + "s " ;	
+	}
+}
+var input = prompt("Word Please!");
+var answer = pluralize(input);
+
+
+console.log(answer);
+
+</script>
+</body>
+</html>
